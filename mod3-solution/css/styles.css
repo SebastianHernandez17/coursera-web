@@ -1,0 +1,76 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #00AACC;
+	font-family: 'arial';
+}
+
+#header-nav{
+	background-color: #776868;
+  	border-radius: 0;
+  	border: 0;
+  	width: 100%;
+  	height: 75px;
+}
+.navbar-brand{
+	padding-top: 25px;
+}
+.navbar-brand h1{
+  	color: #fff;
+  	font-size: 1.5em;
+  	text-transform: uppercase;
+  	font-weight: bold;
+  	font-style: italic;
+  	text-shadow: 1px 1px 1px #0A0CBB;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus { /*Restaurant name without underline*/
+  text-decoration: none;
+}
+#nav-list {
+  margin-top: 5px;
+}
+#nav-list a{
+  color: #ffffff;
+  text-align: center;
+  background-color: #776868;
+}
+#nav-list a:hover {
+  background: #E7e7e7;
+  color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle{
+  clear: both;
+  margin-top: -30px;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+  height: 200px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  border: 2px solid #3F0C1f;
+  overflow: hidden;
+  background-color: #776868;
+  padding: 5px 5px;
+  text-align: center;
+}
+#home-tiles h1{
+	margin-bottom: 60px;
+	font-family: 'Oxygen', sans-serif;
+	font-style: italic;
+	padding-bottom: 0;
+}
+@media(max-width: 767px){
+	#collapsable-nav a{
+    font-size: 1em;
+    margin-right: 5px;
+  }
+ }
